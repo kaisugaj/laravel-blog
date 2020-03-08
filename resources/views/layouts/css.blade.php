@@ -24,7 +24,7 @@
         }
 
         .full-height {
-            height: 70vh;
+            height: 80vh;
         }
 
         .flex-center {
@@ -48,13 +48,13 @@
         }
 
         .title {
-            font-size: 84px;
+            font-size: 110px;
         }
 
         .links > a {
             color: #636b6f;
-            padding: 0 25px;
-            font-size: 13px;
+            padding: 0 50px;
+            font-size: 15px;
             font-weight: 600;
             letter-spacing: .1rem;
             text-decoration: none;

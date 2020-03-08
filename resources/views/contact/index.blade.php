@@ -26,10 +26,8 @@
             <nav>
                 <div class="links">
                     <a class="menu" href="/">Strona główna</a>
-                    <a class="menu" href="index.php">Nowości</a>
-                    <a class="menu" href="index.php">Nasze produkty</a>
                     <a class="menu" href="/blog">Blog</a>
-                    <a class="menu" href="/contact">Kontakt</a>
+                    <a class="menu" href="/contact">Napisz do nas</a>
                 </div>
             </nav>
             <div id="wrapper">

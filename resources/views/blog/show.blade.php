@@ -26,10 +26,8 @@
             <nav>
                 <div class="links">
                     <a class="menu" href="/">Strona główna</a>
-                    <a class="menu" href="index.php">Nowości</a>
-                    <a class="menu" href="index.php">Nasze produkty</a>
                     <a class="menu" href="/blog">Blog</a>
-                    <a class="menu" href="/contact">Kontakt</a>
+                    <a class="menu" href="/contact">Napisz do nas</a>
                 </div>
             </nav>
             <div id="wrapper">
@@ -73,7 +71,7 @@
                     <div class="form-group">
             <textarea name="description" placeholder="Opinia" class="form-control {{ $errors->has('title') ? 'is-danger' : '' }}" required></textarea>
                     </div>
-                    </br>
+                    <br>
                     <div class="form-group">
                         <input name="name" type="text" placeholder="Pseudonim" class="form-control {{ $errors->has('title') ? 'is-danger' : '' }}" required>
 
