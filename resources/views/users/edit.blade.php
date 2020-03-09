@@ -9,7 +9,7 @@
             <a style="padding-inline: 5%; text-align: center" class="btn btn-primary" href="/users">Twoje dane</a>
         </ul>
     </nav>
-    </br>
+    <br>
 
     <h1 class="title">Nowe hasło</h1>
 

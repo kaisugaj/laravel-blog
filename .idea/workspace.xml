@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce30754-f792-43f5-8e4e-d6715ba2a81c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/css.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/css.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/projects/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +173,8 @@
       <workItem from="1582974224284" duration="1301000" />
       <workItem from="1583249825809" duration="52000" />
       <workItem from="1583342941082" duration="772000" />
-      <workItem from="1583670005721" duration="507000" />
+      <workItem from="1583670005721" duration="2157000" />
+      <workItem from="1583768162626" duration="5177000" />
     </task>
     <servers />
   </component>
@@ -180,17 +182,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1130" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583775394759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1130" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583775394759" />
     <state x="1107" y="113" key="CommitChangelistDialog2" timestamp="1582982434253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1107" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582982434253" />
-    <state x="739" y="264" key="FileChooserDialogImpl" timestamp="1581680590356">
+    <state x="739" y="264" key="FileChooserDialogImpl" timestamp="1583672410338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581680590356" />
-    <state x="667" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1583670006286">
+    <state x="739" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583672410338" />
+    <state x="667" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1583768164857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583670006286" />
+    <state x="667" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583768164857" />
+    <state x="0" y="0" width="1150" height="1040" key="dock-window-1" timestamp="1583775248489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1150" height="1040" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1583775248489" />
   </component>
 </project>

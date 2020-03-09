@@ -35,46 +35,61 @@
                 <h1>Kontakt</h1>
                 <fieldset style="border-radius: 10px">
 
-                <form method="POST" action="">
-                    @method('PATCH')
-                    @csrf
+                    <form method="POST" action="{{ url('http://127.0.0.1:8000/') }}">
+                        @method('GET')
+                        @csrf
 
-                    <div style="margin-top: 10px">
-                        <label class="label">Imię</label>
+                        <div style="margin-top: 10px">
+                            <label class="label">Imię</label>
 
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="title" size="50">
+                            <div class="form-group">
+                                <input name="name" type="text"
+                                       class="form-control {{ $errors->has('name') ? 'is-danger' : '' }}"
+                                       value="{{ old('name') }}"
+                                       required size="50">
+                            </div>
                         </div>
-                    </div>
 
-                    <div style="margin-top: 10px">
-                        <label class="label" for="title">Twój adres e-mail</label>
+                        <div style="margin-top: 10px">
+                            <label class="label" for="title">Twój adres e-mail</label>
 
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="title" size="50">
+                            <div class="form-group">
+                                <input name="email" type="text"
+                                       class="form-control{{ $errors->has('email') ? 'is-danger' : '' }}"
+                                       value="{{ old('email') }}"
+                                       required size="50">
+                            </div>
                         </div>
-                    </div>
 
-                    <div style="border-radius: 10px; margin: 10px">
-                        <label class="label" for="title">Telefon</label>
+                        <div style="border-radius: 10px; margin: 10px">
+                            <label class="label" for="title">Temat</label>
 
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="title" size="50">
+                            <div class="form-group">
+                                <input name="subject" type="text"
+                                       class="form-control{{ $errors->has('subject') ? 'is-danger' : '' }}"
+                                       value="{{ old('subject') }}"
+                                       required size="50">
+                            </div>
                         </div>
-                    </div>
 
-                    <div style="margin-top: 10px">
-                        <label class="label" for="description">Wiadomość</label>
+                        <div style="margin-top: 10px">
+                            <label class="label" for="description">Wiadomość</label>
 
-                        <div class="form-group">
-                            <textarea name="description" class="form-control" size="250"></textarea>
+                            <div class="form-group">
+                                <textarea name="description"
+                                          class="form-control {{ $errors->has('title') ? 'is-danger' : '' }}" size="50"
+                                          required>
+                                    {{ old('description') }} </textarea>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="form-group" style="margin-top: 10px">
-                        <button type="submit" class="btn btn-primary">Wyślij</button>
-                    </div>
-                </form>
+                        <div class="form-group" style="margin-top: 10px">
+                            <button type="submit" class="btn btn-primary">Wyślij</button>
+                        </div>
+
+                        @include('errors')
+
+                    </form>
                 </fieldset>
             </div>
         </div>
