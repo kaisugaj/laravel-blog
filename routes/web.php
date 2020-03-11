@@ -22,7 +22,8 @@ Route::resource('blog', 'BlogController');
 
 Route::resource('users', 'UsersControllers');
 
-Route::resource('contact', 'ContactController');
+Route::get('/contact', 'ContactController@show');
+Route::post('/contact', 'ContactController@store');
 
 Route::post('/blog/{project}/comment', 'CommentController@store');
 

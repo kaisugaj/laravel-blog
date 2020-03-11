@@ -27,7 +27,7 @@
                 <div class="links">
                     <a class="menu" href="/">Strona główna</a>
                     <a class="menu" href="/blog">Blog</a>
-                    <a class="menu" href="index.php">Napisz do nas</a>
+                    <a class="menu" href="/contact">Napisz do nas</a>
                 </div>
             </nav>
             <div id="wrapper">

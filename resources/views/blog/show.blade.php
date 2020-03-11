@@ -69,11 +69,11 @@
                     @csrf
 
                     <div class="form-group">
-            <textarea name="description" placeholder="Opinia" class="form-control {{ $errors->has('title') ? 'is-danger' : '' }}" required></textarea>
+            <textarea name="description" placeholder="Opinia" class="form-control {{ $errors->has('description') ? 'is-danger' : '' }}" required></textarea>
                     </div>
                     <br>
                     <div class="form-group">
-                        <input name="name" type="text" placeholder="Pseudonim" class="form-control {{ $errors->has('title') ? 'is-danger' : '' }}" required>
+                        <input name="name" type="text" placeholder="Pseudonim" class="form-control {{ $errors->has('name') ? 'is-danger' : '' }}" required>
 
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary">Dodaj</button>

@@ -14,7 +14,7 @@
 
         </ul>
     </nav>
-    </br>
+    <br>
 
     <h1 class="title">Twoje dane</h1>
     @foreach($users as $user)
@@ -40,10 +40,6 @@
         </div>
     </form>
     <form method="POST" action="/users/{{ $user->id }}">
-
-        <a href="/users/{{ $user->id }}/edit" class="btn btn-primary"
-           style="margin-right: 2px;">Zmień hasło</a>
-
         <div>
             <form method="POST" action="/users/">
                 @method('DELETE')

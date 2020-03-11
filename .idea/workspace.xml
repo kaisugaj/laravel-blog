@@ -4,9 +4,15 @@
     <list default="true" id="4ce30754-f792-43f5-8e4e-d6715ba2a81c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersControllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersControllers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/contact/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projects/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/projects/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +180,11 @@
       <workItem from="1583249825809" duration="52000" />
       <workItem from="1583342941082" duration="772000" />
       <workItem from="1583670005721" duration="2157000" />
-      <workItem from="1583768162626" duration="5177000" />
+      <workItem from="1583768162626" duration="5659000" />
+      <workItem from="1583854647928" duration="2120000" />
+      <workItem from="1583857288824" duration="8441000" />
+      <workItem from="1583872226792" duration="1921000" />
+      <workItem from="1583940648948" duration="4612000" />
     </task>
     <servers />
   </component>
@@ -182,10 +192,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1130" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583775394759">
+    <state x="1130" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583943277775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1130" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583775394759" />
+    <state x="1130" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583943277775" />
     <state x="1107" y="113" key="CommitChangelistDialog2" timestamp="1582982434253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

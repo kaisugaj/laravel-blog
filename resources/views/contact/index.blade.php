@@ -35,23 +35,12 @@
                 <h1>Kontakt</h1>
                 <fieldset style="border-radius: 10px">
 
-                    <form method="POST" action="{{ url('http://127.0.0.1:8000/') }}">
-                        @method('GET')
+                    <form method="POST" action="/contact">
                         @csrf
 
-                        <div style="margin-top: 10px">
-                            <label class="label">Imię</label>
-
-                            <div class="form-group">
-                                <input name="name" type="text"
-                                       class="form-control {{ $errors->has('name') ? 'is-danger' : '' }}"
-                                       value="{{ old('name') }}"
-                                       required size="50">
-                            </div>
-                        </div>
 
                         <div style="margin-top: 10px">
-                            <label class="label" for="title">Twój adres e-mail</label>
+                            <label class="label" for="email">Twój adres e-mail</label>
 
                             <div class="form-group">
                                 <input name="email" type="text"
@@ -76,10 +65,7 @@
                             <label class="label" for="description">Wiadomość</label>
 
                             <div class="form-group">
-                                <textarea name="description"
-                                          class="form-control {{ $errors->has('title') ? 'is-danger' : '' }}" size="50"
-                                          required>
-                                    {{ old('description') }} </textarea>
+                                <textarea name="description" class="form-control {{ $errors->has('description') ? 'is-danger' : '' }}" size="50" required>{{ old('description') }} </textarea>
                             </div>
                         </div>
 
